@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: clipper
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/MikolajTanski/Nebula.git
+    targetRevision: HEAD
+    path: manifests/clipper
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: clipper
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
