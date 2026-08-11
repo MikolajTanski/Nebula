@@ -2,6 +2,8 @@
 
 Co jest gotowe, co planowane, co opcjonalne.
 
+![Roadmap Nebula 2026](assets/roadmap.png)
+
 ## Status
 
 | Komponent | Status |

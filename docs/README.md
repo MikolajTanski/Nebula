@@ -31,3 +31,4 @@ To darmowy, self-hosted zestaw narzędzi — Ty go uruchamiasz, Ty nim zarządza
 | ![Nowa apka](assets/add-app-flow.png) | Dodawanie aplikacji |
 | ![Sekrety](assets/sealed-secrets.png) | Sealed Secrets |
 | ![Po co](assets/why-nebula.png) | Bez vs z Nebulą |
+| ![Roadmap](assets/roadmap.png) | Plan rozwoju 2026 |
